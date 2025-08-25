@@ -1,0 +1,36 @@
+Server is listening on port 1111
+Server is listening on port 2222
+Client join socketCreate
+Client join socketDecision
+Test
+ready
+Send
+Client join socketCreate
+Client join socketDecision
+Test
+ready
+Send
+All players are ready
+active create
+active create
+Streams initialized for client /192.168.1.6:57337
+lock
+Streams initialized for client /192.168.1.6:57340
+lock
+open
+open
+key
+key
+Dec check
+NPC created at: (260.0, 0.0). Entrance: 0.0
+npcs: 1
+NPC created at: (260.0, 0.0). Entrance: 0.0
+npcs: 0
+Sending to other
+Sending to other2222
+Sending to other clients: url=Exit, id=ac77288e-1bc6-4026-b924-1a1c067433cc
+Sent2222222222222222
+Sending to other
+Sending to other2222
+Sending to other clients: url=Exit, id=ac77288e-1bc6-4026-b924-1a1c067433cc
+Sent2222222222222222

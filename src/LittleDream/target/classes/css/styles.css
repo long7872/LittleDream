@@ -1,0 +1,53 @@
+.grid-pane {
+    -fx-background-image: url("../Image/Grass.png");
+    -fx-background-size: 50px 50px;
+}
+.error-label {
+	-fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.waiting {
+	-fx-background-image: url("../Image/bgWaitingRoom.gif");
+    -fx-background-size: 600px 400px;
+}
+.login {
+	-fx-background-image: url("../Image/login.jpeg");
+    -fx-background-size: 635px 360px;
+}
+.loginButton {
+	-fx-background-color: transparent;
+	-fx-text-fill: #717171;
+}
+.loginButton:hover {
+	-fx-text-fill: #02457A;
+	-fx-cursor: hand;
+}
+.signUpButton {
+	-fx-background-color: transparent;
+	-fx-text-fill: #717171;
+}
+.signUpButton:hover {
+	-fx-text-fill: rgb(226, 10, 10);
+	-fx-cursor: hand;
+}
+.rankingLabel {
+	-fx-opacity: 0.8;
+}
+.rankingPane:hover .rankingLabel {
+	-fx-opacity: 1;	
+}
+.rankingPane:hover {
+	-fx-cursor: hand;
+}
+.titleColumn {
+	-fx-text-fill: white;
+}
+.table-view .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+

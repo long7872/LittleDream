@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="635.0" styleClass="login" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginControl">
+   <children>
+      <ImageView fx:id="npc" fitHeight="36.0" fitWidth="20.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/npc1-walkright.gif" />
+         </image>
+      </ImageView>
+      <Pane layoutX="14.0" layoutY="15.0">
+         <children>
+            <ImageView fitHeight="330.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/loginSec.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="32.0" text="USER" textFill="#717171">
+               <font>
+                  <Font name="Bauhaus 93" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameField" layoutX="22.0" layoutY="58.0" prefHeight="26.0" prefWidth="114.0" promptText="Username">
+               <font>
+                  <Font name="Eras Demi ITC" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="25.0" layoutY="86.0" text="PASSWORD" textFill="#717171">
+               <font>
+                  <Font name="Bauhaus 93" size="22.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" layoutX="22.0" layoutY="112.0" prefHeight="26.0" prefWidth="114.0" promptText="Password">
+               <font>
+                  <Font name="Eras Demi ITC" size="12.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="36.0" layoutY="146.0" mnemonicParsing="false" onMouseClicked="#clickLoginButton" prefHeight="28.0" prefWidth="86.0" styleClass="loginButton" stylesheets="@css/styles.css" text="LOGIN" textFill="#717171" underline="true">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="36.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#clickSignUpButton" prefHeight="28.0" prefWidth="86.0" styleClass="signUpButton" stylesheets="@css/styles.css" text="SIGN UP" textFill="#717171" underline="true">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="36.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#clickHelpButton" prefHeight="28.0" prefWidth="86.0" styleClass="loginButton" stylesheets="@css/styles.css" text="HELP" textFill="#717171" underline="true">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="67.0" fitWidth="76.0" layoutX="563.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/star.gif" />
+         </image>
+      </ImageView>
+      <Pane layoutX="393.0" layoutY="16.0">
+         <children>
+            <Label layoutY="0.34528541564941406" opacity="0.61" style="-fx-text-fill: #02457A;" text="L">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.691650390625" opacity="0.61" rotate="5.0" style="-fx-text-fill: #02457A;" text="i">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.16015625" layoutY="6.55012321472168" opacity="0.61" rotate="15.0" style="-fx-text-fill: #02457A;" text="t">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.41912841796875" layoutY="1.6645469665527344" opacity="0.61" rotate="10.0" style="-fx-text-fill: #02457A;" text="t">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.12161254882812" layoutY="10.356603622436523" opacity="0.61" rotate="20.0" style="-fx-text-fill: #02457A;" text="e">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.01370239257812" layoutY="23.0870418548584" opacity="0.61" rotate="25.0" style="-fx-text-fill: #02457A;" text="d">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="141.67645263671875" layoutY="41.540666580200195" opacity="0.61" rotate="35.0" style="-fx-text-fill: #02457A;" text="e">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="129.29669189453125" layoutY="30.317598342895508" opacity="0.61" rotate="30.0" style="-fx-text-fill: #02457A;" text="r">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.3131103515625" layoutY="54.85325050354004" opacity="0.61" rotate="42.0" style="-fx-text-fill: #02457A;" text="a">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="172.015380859375" layoutY="75.37513160705566" opacity="0.61" rotate="55.0" style="-fx-text-fill: #02457A;" text="m">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="595.0" layoutY="320.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#clickRanking" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 20 0 0 0;" styleClass="rankingPane" stylesheets="@css/styles.css">
+         <children>
+            <Label layoutX="2.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="36.0" prefWidth="36.0" style="-fx-background-color: white; -fx-background-radius: 20 0 0 0;" styleClass="rankingLabel" stylesheets="@css/styles.css" />
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="5.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/ranking.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="leaderboardPane" layoutX="245.0" layoutY="69.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="240.0" style="-fx-background-color: #79ACD9; -fx-border-color: black; -fx-border-width: 5;" visible="false">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="150.0" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/leaderboard.png" />
+               </image>
+            </ImageView>
+            <StackPane fx:id="stackPane" layoutX="20.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="highestTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #B3D5F2; -fx-border-color: rgba(0,102,190,0.8); -fx-border-width: 3;">
+                     <columns>
+                        <TableColumn fx:id="userCol3" editable="false" prefWidth="105.5999755859375" resizable="false" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Username" />
+                        <TableColumn fx:id="highestCol" editable="false" minWidth="-1.0" prefWidth="88.79998779296875" resizable="false" sortType="DESCENDING" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Highest Coin" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <TableView fx:id="totalTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #B3D5F2; -fx-border-color: rgba(0,102,190,0.8); -fx-border-width: 3;">
+                     <columns>
+                        <TableColumn fx:id="userCol2" editable="false" prefWidth="105.5999755859375" resizable="false" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Username" />
+                        <TableColumn fx:id="totalCoinCol" editable="false" minWidth="-1.0" prefWidth="88.79998779296875" resizable="false" sortType="DESCENDING" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Total Coin" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <TableView fx:id="winTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #B3D5F2; -fx-border-color: rgba(0,102,190,0.8); -fx-border-width: 3;">
+                     <columns>
+                        <TableColumn fx:id="userCol1" editable="false" prefWidth="105.5999755859375" resizable="false" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Username" />
+                        <TableColumn fx:id="winCol" editable="false" minWidth="-1.0" prefWidth="88.79998779296875" resizable="false" sortType="DESCENDING" sortable="false" style="-fx-background-color: #5d8994;" styleClass="titleColumn" text="Win count" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </StackPane>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="8.0" layoutY="129.0" onMouseClicked="#tableToLeft" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/buttonLeft.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="220.0" layoutY="129.0" onMouseClicked="#tableToRight" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/buttonRight.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

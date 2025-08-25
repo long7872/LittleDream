@@ -1,0 +1,72 @@
+Hibernate: 
+    select
+        useraccoun0_.username as username1_0_,
+        useraccoun0_.highestCoin as highestc2_0_,
+        useraccoun0_.password as password3_0_,
+        useraccoun0_.totalCoin as totalcoi4_0_,
+        useraccoun0_.winTime as wintime5_0_ 
+    from
+        UserAccount useraccoun0_ 
+    where
+        useraccoun0_.username=?
+Connected to server.
+Ready
+2
+2
+Reading NPC position...
+NPC position received.
+Received NPC position: 260.0, 0.0. Entrance: 0.0
+npcx: 260.0, npcy: 30.0
+4 0
+bottom notnull
+remove upper
+1
+4 1
+Receiveeeeeeeeeeeeeeeee
+0
+0
+ac77288e-1bc6-4026-b924-1a1c067433cc
+a627271b-0bd9-4f2f-a603-b2022dd730ac
+Hibernate: 
+    select
+        useraccoun0_.username as username1_0_0_,
+        useraccoun0_.highestCoin as highestc2_0_0_,
+        useraccoun0_.password as password3_0_0_,
+        useraccoun0_.totalCoin as totalcoi4_0_0_,
+        useraccoun0_.winTime as wintime5_0_0_ 
+    from
+        UserAccount useraccoun0_ 
+    where
+        useraccoun0_.username=?
+30000
+59943
+33
+Hibernate: 
+    update
+        UserAccount 
+    set
+        highestCoin=?,
+        password=?,
+        totalCoin=?,
+        winTime=? 
+    where
+        username=?
+File already exists: C:\Study\Object-Oriented Programming\Eclipse JDE\eclipse-workspace\Game\src\main\resources\logGame\log0.xml
+File created successfully: C:\Study\Object-Oriented Programming\Eclipse JDE\eclipse-workspace\Game\src\main\resources\logGame\log1.xml
+Hibernate: 
+    select
+        useraccoun0_.username as username1_0_,
+        useraccoun0_.highestCoin as highestc2_0_,
+        useraccoun0_.password as password3_0_,
+        useraccoun0_.totalCoin as totalcoi4_0_,
+        useraccoun0_.winTime as wintime5_0_ 
+    from
+        UserAccount useraccoun0_
+File saved to C:\Study\Object-Oriented Programming\Eclipse JDE\eclipse-workspace\Game\src\main\resources\logGame\log1.xml
+npcx: 260.0, npcy: 90.0
+4 1
+bottom notnull
+upper notnull
+remove upper
+1
+4 2

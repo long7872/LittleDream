@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user>
+        <username>123</username>
+        <highestCoin>120</highestCoin>
+        <totalCoin>120</totalCoin>
+        <winTime>1</winTime>
+    </user>
+    <user>
+        <username>Hoa</username>
+        <highestCoin>30000</highestCoin>
+        <totalCoin>59823</totalCoin>
+        <winTime>32</winTime>
+    </user>
+    <user>
+        <username>Long</username>
+        <highestCoin>19838</highestCoin>
+        <totalCoin>235598</totalCoin>
+        <winTime>24</winTime>
+    </user>
+</users>
